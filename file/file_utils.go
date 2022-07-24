@@ -40,6 +40,6 @@ func CurrentUserDir() string {
 	//fmt.Println("Home dir:", u.HomeDir)
 }
 
-func AppDataDir() string {
-	return CurrentUserDir() + "/.weixin_app"
+func AppDataDir(name string) string {
+	return CurrentUserDir() + string(os.PathSeparator) + name
 }
