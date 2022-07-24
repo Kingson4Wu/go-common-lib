@@ -10,3 +10,10 @@ go mod vendor
 
 如何使用私有仓库的 Go Modules:
 https://cloud.tencent.com/developer/article/1701895
+
+
+---
++ https://github.com/Kingson4Wu/go-common-lib
++ git tag v0.0.2
++ git push origin v0.0.2
++ https://github.com/Kingson4Wu/go-common-lib/releases/new
