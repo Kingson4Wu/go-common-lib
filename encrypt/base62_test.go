@@ -9,6 +9,10 @@ import (
 func TestEncode62(t *testing.T) {
 	fmt.Println(encrypt.Encode62(78653623482744824))
 	fmt.Println(encrypt.Decode62("5oEX9EWxw0"))
+	fmt.Println(encrypt.Encode62(78653623482744825))
+	fmt.Println(encrypt.Decode62("5oEX9EWxw1"))
+	fmt.Println(encrypt.Encode62(88653623482744825))
+	fmt.Println(encrypt.Decode62("6Y28kuzEnB"))
 }
 
 func TestEncode62Random(t *testing.T) {
